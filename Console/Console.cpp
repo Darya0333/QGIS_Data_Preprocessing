@@ -6,13 +6,6 @@ bool getLine(FILE* fp, char* buf) {
 	return fgets(buf, 2000, fp) != NULL;
 }
 
-class JSON {
-	JSON() {}
-	JSON(char* str) {
-
-	}
-};
-
 int main(int argc, char* argv[]) {
 	if (argc < 2) {
 		cout << "Please input a file.\n";
